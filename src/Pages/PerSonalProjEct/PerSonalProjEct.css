@@ -1,0 +1,23 @@
+/* HR CODE */
+
+.bb{
+ font-size: 13px;
+ background-color: #ffffff;
+ color: black;
+ padding: 6px;
+ border-radius: 20px;
+ z-index: 999;
+ position: relative;
+ left: -7rem;
+ box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+ margin-bottom: 6rem;
+}
+
+.hr {
+    border: 0.9px dotted;
+    position: relative;
+    top: 15px;
+    width: 770%;
+    left: -42rem;
+    z-index: -2;
+}

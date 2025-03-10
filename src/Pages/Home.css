@@ -6,7 +6,6 @@
     justify-content: center;
 }
 
-/* Home.css */
 
 /* General styling for the home component */
 .home {
@@ -35,7 +34,6 @@
   
   .help {
     margin-top: 20px;
-    /* margin-bottom: 2rem; */
   }
   
   .h5 {
@@ -56,20 +54,25 @@
     font-size: 1.3em;
     margin-top: 10px;
   }
+
   
   
-  /* Home.css */
+  
+  
 
 /* Style for the help section */
 .help ul {
-    list-style-type: none; /* Change list to dots */
-    padding-left: 20px; /* Add padding to the left for proper indentation */
+    list-style-type: none; 
+    padding-left: 20px;
   }
+
+
   
   .help ul li {
-    font-size: 1.1em; /* Optional: Adjust the font size of the list items */
+    font-size: 1em; 
+    color: #0000007e;
     list-style: dotted;
-    margin: 5px 0; /* Space out the list items */
+    margin: 5px 0; 
   }
   
   
@@ -84,7 +87,7 @@
   }
   
   .socials .social-icons a {
-    color: #fff; /* Black color for the links */
+    color: #fff;
     font-size: 0.9em;
     background-color: #000;
     border-radius: 20px;
@@ -96,7 +99,9 @@
   }
   
   .socials .social-icons a:hover {
-    color: #007bff;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid black;
   }
   
   .socials .social-icons i {
@@ -111,6 +116,39 @@
   
   .image {
     width: 70%;
-    border-radius: 8px;
+  }
+
+  .image img {
+    border: 0.9px dotted;
+    padding: 70px;
+    width: 90%;
+    margin-top: 4rem;
   }
   
+  /* STYLE FOR BORDER AROUND THE PICTURE */
+
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  .waving-hand {
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    transform: translate(-10%, -70%);
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px dotted;
+    align-items: center;
+    padding: 5px;
+    background-color: #ffffffe5;
+  }
+
+  
+  /* END OF STYLE FOR BORDER */
+
+

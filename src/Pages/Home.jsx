@@ -49,6 +49,7 @@ const Home = () => {
                 <div className="right">
                     <div className="image">
                     <img src={chrisImage} alt="Chris" className="image" />
+                    <div className="waving-hand">👋</div>
                     </div>
                 </div>
             </div>
