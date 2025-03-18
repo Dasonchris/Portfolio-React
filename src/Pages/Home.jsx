@@ -12,7 +12,7 @@ const Home = () => {
                     </h3>
                     <div className="about-me">
                         <p className='me'>
-                            I'm a Software Developer living in Ghana, Ho-Volta Region.
+                            I'm a Software Developer living in Ghana, Ho-Volta. <br />
                             I focus on Front-end development.
                         </p>
                     </div>
@@ -33,13 +33,13 @@ const Home = () => {
                                 Follow me on:
                             </h5>
                             <div className="social-icons">
-                                <a href="https://www.linkedin.com/in/chris" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/dason-chris-38b57b327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i> LinkedIn
                                 </a>
-                                <a href="https://www.facebook.com/chris" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.facebook.com/rose.chris.5249349" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook"></i> Facebook
                                 </a>
-                                <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/message/CKXGG4HVOLHLN1" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-whatsapp"></i> WhatsApp
                                 </a>
                             </div>

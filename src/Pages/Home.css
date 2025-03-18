@@ -137,8 +137,9 @@
 
   .waving-hand {
     position: absolute;
-    top: 48%;
-    left: 55%;
+    top: 30%;
+    left: 30rem;
+    /* left: -20%; */
     transform: translate(-10%, -70%);
     font-size: 25px;
     border-radius: 50%;

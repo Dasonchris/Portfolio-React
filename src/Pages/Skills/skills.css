@@ -1,0 +1,35 @@
+/* PP STARTS HERE */
+ 
+.major {
+    margin-top: 2rem;
+}
+
+
+.PP {
+    font-size: 10px; /* Reduce font size */
+    background-color: crimson;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 999;
+    position: relative;
+    top: -0.5rem;
+    left: 23rem;
+    width: 15%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);  
+}
+
+p {
+    text-align: center;
+    gap: 10px; 
+}
+
+.hr {
+    border: 0.9px dotted;
+    position: relative;
+    top: 10px;
+    width: 149%; 
+    left: -33rem;
+    z-index: -2;
+}
