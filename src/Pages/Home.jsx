@@ -18,7 +18,7 @@ const Home = () => {
                     </div>
                     <div className="help">
                         <div className="h5">
-                            <div className="sub">
+                            <div className="subs">
                             I can help you out with:
                             </div>
                             

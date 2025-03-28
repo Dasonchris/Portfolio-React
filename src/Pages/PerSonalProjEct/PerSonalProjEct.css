@@ -23,10 +23,9 @@ p{
     border: 0.9px dotted;
     position: relative;
     top: 10px;
-    width: 149%; /* Adjusted to span across the full screen */
-    left: -33rem; /* Center the HR */
+    width: 149%; 
+    left: -33rem;
     z-index: -2;
-    /* width: 30%; */
 }
 
 
@@ -37,6 +36,22 @@ p{
     top: -2rem;
 }
 
+.personal-projects {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-projects p {
+    position: relative;
+    left: -17rem;
+    top: 1rem;
+} 
+
+span {
+    margin-top: 3rem;
+}
+
 /* Reduced spacing for the project list */
 .projects-list {
     position: relative;
@@ -44,16 +59,15 @@ p{
     left: -2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 2rem;  /* Space between project cards */
+    gap: 2rem; 
     margin-top: 20px;
     width: 85%;
-    /* border: 0.9px dotted #000; */
 }
 
 /* Project Item Styles */
 .project-item {
     background-color: #fff;
-    padding: 3rem; /* Increased padding for larger cards */
+    padding: 3rem; 
     border-radius: 8px;
     gap: 12rem;
     justify-content: center;

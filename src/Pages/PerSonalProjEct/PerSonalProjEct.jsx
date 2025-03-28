@@ -10,25 +10,25 @@ const projects = [
     name: 'Coffee App',
     description: 'It\'s a website that puts customers first and gives them the best service',
     link: 'https://dasonchris.github.io/Coffee-App/',
-    image: first1 // Corrected to use the imported image
+    image: first1 
   },
   {
     name: 'Qr-Code-Generator',
     description: 'A website I wrote to generate a QR scanner of whatever you input',
     link: 'https://dasonchris.github.io/QR-Code-Generator/',
-    image: second2 // Corrected to use the imported image
+    image: second2 
   },
   {
     name: 'Quiz Question web',
     description: 'A simple Quiz web that I created for testing students',
     link: 'https://dasonchris.github.io/Quiz-question-of-js/',
-    image: third3 // Corrected to use the imported image
+    image: third3 
   },
   {
     name: 'Food-byte',
     description: 'A full website that displays a variety of your favorite food and desserts',
-    link: 'https://github.com/Dasonchris/Food-Domain.git',
-    image: fourth4 // Corrected to use the imported image
+    link: ' https://food-bytes-peach.vercel.app',
+    image: fourth4 
   }
 ];
 
@@ -42,7 +42,6 @@ const PerSonalProjEct = () => {
   return (
     <section className="main">
       <div className="container">
-        {/* Title Section (Only appears once at the top) */}
         <span>
           <hr className="hr" />
           <p className="bb">
@@ -73,7 +72,7 @@ const PerSonalProjEct = () => {
 
         {/* Button to toggle visibility of all projects */}
         <button onClick={handleButtonClick} className="view-all-btn">
-          {showAllProjects ? 'Hide All Projects' : 'View All My Projects'}
+          { showAllProjects ? 'Hide All Projects' : 'View All My Projects'}
         </button>
 
         {/* Conditionally render all projects */}
@@ -83,7 +82,7 @@ const PerSonalProjEct = () => {
               <div
                 className="project-item"
                 key={index}
-                onClick={() => window.open(project.link, '_blank')} // Open the project when clicked
+                onClick={() => window.open(project.link, '_blank')} 
               >
                 <img src={project.image} alt={project.name} className="project-image" />
                 <h3 className="project-title">{project.name}</h3>

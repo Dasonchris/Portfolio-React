@@ -2,10 +2,11 @@
  
 .major {
     margin-top: 2rem;
+    top: -2rem;
 }
 
 
-.PP {
+span .pb {
     font-size: 10px; /* Reduce font size */
     background-color: crimson;
     align-items: center;
@@ -15,7 +16,7 @@
     z-index: 999;
     position: relative;
     top: -0.5rem;
-    left: 23rem;
+    left: 34rem;
     width: 15%;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);  
 }
@@ -33,3 +34,79 @@ p {
     left: -33rem;
     z-index: -2;
 }
+/* ENDS HERE */
+
+
+
+/* SUB SECTIONS */
+
+.sub{
+    text-align: left;
+    position: relative;
+    left: 9rem;
+}
+
+.sub .special{
+    margin-top: 1rem;
+    font-weight: 300;
+    color: #0000009c;
+    font-size: 17px;
+}
+/* ENDS HERE */
+
+
+
+/* ICONS START HERE */
+.icons {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    margin-left: -37rem;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    gap: 1.5rem;
+  }
+  
+  .icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.603);
+    border: 1px solid #000;
+    color: #fff;
+    padding: 10px;
+    width: 75%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+    color: #000;
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  .icon img {
+    width: 15px; /* Adjust the image size */
+    height: 15px;
+    margin-left: 4px; /* Space between image and text */
+  }
+  
+  .icon h3 {
+    font-size: 9px; /* Adjust font size as needed */
+    margin: 0; /* Remove margin for alignment */
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+
+
+
+
+/* END OF ICONS */
